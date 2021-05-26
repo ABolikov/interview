@@ -8,7 +8,7 @@ public class Square extends Figure {
 
     @Override
     public void area() {
-        super.area();
+        area = a * a;
         System.out.println(this);
     }
 }

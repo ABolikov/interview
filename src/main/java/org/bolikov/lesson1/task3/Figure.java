@@ -12,9 +12,7 @@ public abstract class Figure {
         this.b = b;
     }
 
-    public void area() {
-        area = a * b;
-    }
+    public abstract void area();
 
     @Override
     public String toString() {

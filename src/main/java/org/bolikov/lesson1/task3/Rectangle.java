@@ -8,7 +8,7 @@ public class Rectangle extends Figure {
 
     @Override
     public void area() {
-        super.area();
+        area = a * b;
         System.out.println(this);
     }
 }
